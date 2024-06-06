@@ -1,14 +1,10 @@
-package tests.iut.sae.algo;
-
-import iut.sae.algo.*;
-import junit.framework.TestCase;
-
-import static org.junit.Assert.assertThrows;
+package iut.sae.algo;
 
 import org.junit.Test;
+import junit.framework.TestCase;
+
 
 public class AlgoTest extends TestCase{
-
 
 /*
  * RLE("")=""
