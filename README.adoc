@@ -87,6 +87,9 @@ Exemple d'input::
 Exemple d'ouput::
 `"9W1B8W3B3W1B7W"`
 
+WARNING: Attention, pour les répétitions au-dessus de 10 occurrences, il faut adopter une convention particulière. En effet, comment décompresser `133W` est "un trois et 3 W => `3W`" ou bien "133 W"!
+Nous adoptons donc la convention de faire de blocs de 9 max. Ainsi `wwwwwwwwwwww` se compresse `9w3w` (cf. message Discord en ce sens).
+
 Les *contraintes* sont les suivantes :
 
 - votre algorithme doit être écrit dans l'un des langages suivants au choix : java, python ou C
@@ -212,3 +215,9 @@ Voici les pré-requis pour exécuter nos codes d'évaluation.
 - **Bonus** pour ceux qui auront proposés plusieurs algos différents (indépendamment de leur classement final)
 - **Bonus** supplémentaire pour ceux qui auront proposés des versions en langages différents de leur(s) algo(s)  (indépendamment de leur classement final)
 
+== Divers
+
+À la demande des étudiants est créé une nouvelle catégorie, juste pour le fun : le concours du code source le plus compact.
+Ainsi, si vous pensez avoir le fichier source le plus compact (le moins gros en taille), envoyez-moi en MP sur Discord (jmb) le nombre d'octet pour afficher qui tient la corde sur ce concours.
+
+WARNING: Bien sûr le code doit fonctionner (passer les tests java ou équivalents).
