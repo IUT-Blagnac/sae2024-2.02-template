@@ -85,7 +85,7 @@ Exemple d'input::
 `"WWWWWWWWWBWWWWWWWWBBBWWWBWWWWWWW"`
 
 Exemple d'ouput::
-`"9W1B6W3B3W1B7W"`
+`"9W1B8W3B3W1B7W"`
 
 Les *contraintes* sont les suivantes :
 
