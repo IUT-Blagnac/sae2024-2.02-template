@@ -4,6 +4,7 @@
 :toc: left
 :toc-title: Sommaire
 :toclevels: 1
+:toc!:
 // Antora 
 // => traduction automatique fr/uk
 // => niveau de guidage
