@@ -73,7 +73,7 @@ Cette SAÉ se déroule en 2 phases.
 === Phase 1 : concours d'algorithme (20% seulement de la note)
 
 Vous allez devoir soumettre individuellement un algorithme qui résout un problème simple (niveau BUT S1) mais qui peut se régler avec plusieurs solutions différentes. 
-Vous avez la semaine 23 (encadrée, mais questions sur Discord bienvenues) pour réaliser et soumettre votre (ou vos) solutions. 
+Vous avez la semaine 24 (encadrée, et questions sur Discord bienvenues pendant les séances libres) pour réaliser et soumettre votre (ou vos) solutions. 
 
 WARNING: Cette 1ère phase est **individuelle**.
 
@@ -82,15 +82,15 @@ Le problème consiste à simplement implémenter l'algorithme de compression {RL
 TIP: Voir aussi cette page : https://fr.wikipedia.org/wiki/Codage_par_plages
 
 Exemple d'input::
-`"WWWWWWWWWWWWBWWWWWWWWWWWWWWBBBWWWWWWWWWWWWWWWWWWWWWWWBWWWWWWWWWWW "`
+`"WWWWWWWWWBWWWWWWWWBBBWWWBWWWWWWW"`
 
 Exemple d'ouput::
-`"12W1B14W3B23W1B11W"`
+`"9W1B6W3B3W1B7W"`
 
 Les *contraintes* sont les suivantes :
 
 - votre algorithme doit être écrit dans l'un des langages suivants au choix : java, python ou C
-- il doit permettre à l'un des 2 programmes principaux fournis (java ou C) de fonctionner (respect donc des noms de classes, méthodes ou fonctions en conséquence). Le choix du nom de la fonction n'est donc pas libre!
+- il doit permettre aux test JUnit fournis de passer (respect donc des noms de classes, méthodes ou fonctions en conséquence). Le choix du nom de la fonction n'est donc pas libre!
 - le texte à compresser est donné sous forme d'une chaîne de caractères (sans accents pour éviter les soucis)
 - le texte compressé est aussi retourné sous forme d'une chaîne de caractères.
 
